@@ -16,7 +16,7 @@ A web-app which tell whether your birthday is lucky or not depending on your luc
 
 The site is deployed and is live now. Enjoy 🎉🎈✨
 
-[Lucky Birthday]().
+[Lucky Birthday](https://birth-date-luck.netlify.app/).
 
 ## TechStack used:
 1. HTML5
