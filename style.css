@@ -128,10 +128,6 @@ button{
   display: inline;
   padding: 0rem 2.6rem 0rem 0rem;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 .privacy{
   text-align: center;
   color: var(--secondary-color);
