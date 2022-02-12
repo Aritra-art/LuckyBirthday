@@ -102,6 +102,7 @@ button{
 .output{
   color: var(--secondary-color);
   font-size: large;
+  font-weight: bold;
 }
 
 .footer{
