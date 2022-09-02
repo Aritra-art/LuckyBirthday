@@ -35,8 +35,9 @@ function luckyCheck(sum) {
         emotion.innerHTML = "<img src='./images/happy.gif'>";
       }, 2000);
     } else {
-      emotion.style.display = "block";
+      emotion.style.display = "none";
       setTimeout(() => {
+        emotion.style.display = "block";
         output.innerText = "Your Birthday is not that Lucky 😥😥";
         emotion.innerHTML = "<img src='./images/sad.gif'>";
       }, 2000);
