@@ -12,9 +12,21 @@ clear.addEventListener("click", clearEventHandler);
 error.style.display = "none";
 
 function checkEventHandler() {
+  // let newString = "";
   emotion.style.display = "none";
   var birthday = dob.value;
   var remove = birthday.replaceAll("-", "");
+
+  // Own replaceAll method.
+
+  // for (let i = 0; i < birthday.length; i++) {
+  //   if (birthday.charAt(i) === "-") {
+  //     newString = newString + "";
+  //   } else {
+  //     newString = newString + birthday.charAt(i);
+  //   }
+  // }
+  // console.log(newString);
   var sum = 0;
   for (var i = 0; i < remove.length; i++) {
     sum += Number(remove.charAt(i));
